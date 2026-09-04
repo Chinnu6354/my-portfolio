@@ -1,53 +1,42 @@
-const API_BASE_URL =
-  "https://myportfolio-api-61za.onrender.com/api/v1/portfolio/chinnu";
+const API_BASE_URL = process.env.REACT_APP_BASE_API;
+
+console.log("API BASE URL:", API_BASE_URL);
 
 export const getEducation = async () => {
-  const url =
-    "https://myportfolio-api-61za.onrender.com/api/v1/portfolio/chinnu/education/";
-
-  console.log("Calling API:", url);
-
-  const response = await fetch(url);
-
-  console.log("Status:", response.status);
-  console.log("Response:", response);
+  const response = await fetch(`${API_BASE_URL}chinnu/education/`);
 
   if (!response.ok) {
-    throw new Error(`API Error: ${response.status}`);
+    throw new Error(`Failed to fetch education: ${response.status}`);
   }
 
-  const data = await response.json();
-
-  console.log("Education data:", data);
-
-  return data;
+  return response.json();
 };
 
 export const getProjects = async () => {
-  const response = await fetch(`${API_BASE_URL}/projects/`);
+  const response = await fetch(`${API_BASE_URL}chinnu/projects/`);
 
   if (!response.ok) {
-    throw new Error("Failed to fetch projects");
+    throw new Error(`Failed to fetch projects: ${response.status}`);
   }
 
   return response.json();
 };
 
 export const getSkills = async () => {
-  const response = await fetch(`${API_BASE_URL}/skills/`);
+  const response = await fetch(`${API_BASE_URL}chinnu/skills/`);
 
   if (!response.ok) {
-    throw new Error("Failed to fetch skills");
+    throw new Error(`Failed to fetch skills: ${response.status}`);
   }
 
   return response.json();
 };
 
 export const getExperience = async () => {
-  const response = await fetch(`${API_BASE_URL}/experience/`);
+  const response = await fetch(`${API_BASE_URL}chinnu/experience/`);
 
   if (!response.ok) {
-    throw new Error("Failed to fetch experience");
+    throw new Error(`Failed to fetch experience: ${response.status}`);
   }
 
   return response.json();

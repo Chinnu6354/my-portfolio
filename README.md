@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# Chinnu Pradhan | Software Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! 🚀
 
-## Available Scripts
+This portfolio showcases my skills, projects, experience, education, and technical background as a Software Developer with a focus on Java Full Stack Development.
 
-In the project directory, you can run:
+## 👨‍💻 About Me
 
-### `npm start`
+I am a passionate Software Developer and Java Full Stack Developer with hands-on experience in building scalable and responsive web applications. I enjoy working on both backend and frontend development to create complete end-to-end solutions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+My technical interests include Java, Spring Boot, REST APIs, databases, and modern web development. I enjoy learning new technologies, solving real-world problems, and building projects that improve my practical development skills.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🌐 Portfolio Features
 
-### `npm test`
+The portfolio includes the following sections:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🏠 Home
+- 👨‍💻 About Me
+- 🎓 Education
+- 🛠 Skills
+- 💼 Experience
+- 🚀 Projects
+- 📞 Contact
 
-### `npm run build`
+## 🚀 Projects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### BeatNest – Full-Stack Music Streaming Platform
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A full-stack music streaming web application that allows users to discover songs, search for artists, and manage personalized playlists.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Technologies Used:**
 
-### `npm run eject`
+- Java
+- Spring Boot
+- Spring Security
+- JWT Authentication
+- REST APIs
+- MySQL
+- HTML
+- CSS
+- JavaScript
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Online Examination System
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A web-based examination platform designed to manage online exams, questions, users, and results.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Features:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Timed examinations
+- Automatic submission
+- Automated grading
+- User and exam management
+- Result management
 
-## Learn More
+**Technologies Used:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- HTML
+- CSS
+- JavaScript
+- MySQL
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🛠 Skills & Technologies
 
-### Code Splitting
+### Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Java
+- Spring
+- Spring Boot
+- Hibernate
+- JDBC
+- REST APIs
+- Spring Security
+- JWT Authentication
 
-### Analyzing the Bundle Size
+### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React.js
+- JavaScript
+- HTML
+- CSS
 
-### Making a Progressive Web App
+### Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- MySQL
+- SQL
 
-### Advanced Configuration
+### Tools & Technologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Git
+- GitHub
+- Docker
+- Kubernetes
+- AWS
 
-### Deployment
+## 🔗 Dynamic Backend Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This portfolio is connected to a backend API to dynamically fetch portfolio information.
 
-### `npm run build` fails to minify
+The portfolio can retrieve:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Projects
+- Skills
+- Experience
+- Education
+
+This allows portfolio content to be managed from the backend without manually updating the React frontend.
+
+## 📱 Responsive Design
+
+The portfolio is designed to work across different devices:
+
+- Desktop
+- Tablet
+- Mobile
+
+## ⚙️ Getting Started
+
+### Clone the Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
